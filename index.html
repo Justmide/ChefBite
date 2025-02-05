@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefBite Restaurant</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/fontawesome.min.css" integrity="sha512-lauN4D/0AgFUGvmMR+knQnbOADyD/XuQ8VF18I8Ll0+TLvsujshyxvU+uzogmQbSq6qJd5jnUdYtK8ShxXMlSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="shortcut icon" href="./images/Brown Simple Circle Restaurant Logo.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"/>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsiveness.css">
+
+
+<body>
+   <header>
+    <nav>
+       <div class="navlist">
+        <ul>
+            <!-- <li><a href="#">Welcome</a></li> -->
+            <li><a href="./index.html">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Address</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+       </div>
+      
+
+       <div class="logo">
+        <img src="./images/Brown Simple Circle Restaurant Logo.png" alt="logo" width="90px" >
+        </div>
+        <div class="cartLogo" id="cartLogo">
+            <img class="cartImg" width="24" height="24" src="https://img.icons8.com/material-rounded/24/FFFFFF/shopping-cart.png" alt="shopping-cart"/>
+            <p class="cartOrder" id="cartNum">0</p>
+        </div>
+        <div class="reserveBtn">
+            <button class="glow-on-hover" type="button">Reserve a table</button>
+            </div>  
+    </nav>
+   
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Welcome</a>
+        <a href="#">Our Menu</a>
+        <a href="#">About</a>
+        <a href="#">Our Address</a>
+        <a href="#">Contact</a>
+      </div>
+      <span class="hamburger"   style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+      <div class="resLogo"  id="cartLogo1">
+        <img class="cartImg2" id="cartCheck" width="44" height="44" src="https://img.icons8.com/material-rounded/24/FFFFFF/shopping-cart.png" alt="shopping-cart"/>
+        <p class="cartNum2" id="cartNum2">0</p>
+        
+    </div>
+
+   
+   </header>
+   <div class="line"></div>
+   <div class="line2">
+   </div>
+
+   <!-- SECTION ONE STARTING  -->
+
+   <section class="sectionOne">
+    <div class="marqu">
+        <div class="trape">
+        </div>
+        <marquee behavior="scroll" direction="left">Take up to 45% off our price this Christmas season | USE CODE GREEN123 | Limited Time Only | Enjoy this special holiday with your love ones </marquee>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/refreshment-cocktail-night-club-generative-ai_188544-12136.jpeg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Discover the Art of Fine Dining</h1>
+                <p>Where culinary mastery meets an elegant ambiance, delivering an experience beyond compare.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/top-view-table-full-delicious-food-composition.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Crafting Flavors, Creating Memories</h1>
+                <p>Each dish tells a story of tradition, innovation, and passion—crafted to perfection for you.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/restaurant-hall-with-red-brick-walls-wooden-tables-pipes-ceiling.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Celebrate the Moments that Matter</h1>
+                <p>Host your special occasions with us and create unforgettable memories.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span> -->
+        </a>
+      </div>
+    </div>
+</div>
+
+      
+
+   </section>
+
+
+   <!-- SECTION TWO .... -->
+   <section class="sectionTwo">
+<div class="sectionTwoContent">
+
+    <!-- THE LEFT ABOUT CONTENT WHICH IS IMAGE -->
+    <div class="leftBoutContent">
+        <img src="./images/Brown Simple Circle Restaurant Logo.png" alt="" width="500px">
+    </div>
+
+
+     <!-- THE RIGHT ABOUT CONTENT WHICH IS TEXT -->
+    <div class="rightBoutContent">
+        <p class="rightHead">About Us</p>
+        <p class="aboutUsHeader animate__animated animate__rubberBand">We provide <img src="./images/3425151.webp" alt="" width="30px">
+            healthy food</p>
+        <p class="aboutUs   animate__animated animate__zoomInUp">Welcome to ChefBite, where culinary excellence meets a warm and inviting atmosphere. Our restaurant is a celebration of flavors, a place where every dish is a masterpiece and every moment is a memorable one. With a passion for food and a commitment to exceptional service, we invite you to embark on a gastronomic journey that will tantalize your taste buds and leave you craving for more.</p>
+        </div>
+</div>
+</section>
+
+
+
+<section class="sectionThree">
+    <div class="menuHeaderTxt">
+    <p>Discover our delicious offerings, from local flavors to international cuisines 👌scroll ←→</p>
+  </div>
+<div class="sectionThreeContent">
+
+   <div class="foodNav">
+    <ul>
+      <li><a href="#popular-food">Popular Food</a></li>
+      <li><a href="./Food Page/maindish.html">Main Dish</a></li>
+      <li><a href="./Food Page/salad.html">Salad</a></li>
+      <li><a href="./Food Page/fingers.html">Fingers Food</a></li>
+      <li><a href="./Food Page/shawarma.html">Shawarma</a></li>
+      <li><a href="./Food Page/Grills.html">Grills</a></li>
+      <li><a href="./Food Page/Localdish.html">Local Dishes</a></li>
+      <li><a href="./Food Page/continental.html">Continental Dishes</a></li>
+      <li><a href="./Food Page/soup.html">Soup</a></li>
+      <li><a href="#favorite-drinks">Favorite Drinks</a></li>
+      <li><a href="#rum-and-gin">Rum and Gin</a></li>
+      <li><a href="#tequila">Tequila</a></li>
+      <li><a href="#smoothies">Smoothies</a></li>
+      <li><a href="#mocktails">Mocktails</a></li>
+      <li><a href="#milk-shake">Milk Shake</a></li>
+      <li><a href="#cocktails">Cocktails</a></li>
+      <li><a href="#shots">Shots</a></li>
+      <li><a href="#others">Others</a></li>
+      <li><a href="#energy-drink">Energy Drink</a></li>
+    </ul>
+    
+   </div>
+</div>
+</section>
+
+<section class="sectionFour">
+  <div class="sectionFourContent">
+      <h1 class="popularFood">POPULAR FOOD...</h1>
+ <div class="gridtemplate">
+  <div class="gridItem">
+    <img class="food1" src="./food/jollof.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName">Jollof Rice & Chicken </p>
+    <p class="foodPrice">₦3,500.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/big-max-burger-standing-piece-wood_114579-2174.jpeg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName">Big Max Burger </p>
+    <p class="foodPrice">₦5,000.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+    <div class="numberCart">
+    
+    </div>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/eba and efo.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName" >Eba & Efo riro </p>
+    <p class="foodPrice">₦2,800.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/noodle and egg.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName2" >Noodles & Egg</p>
+    <p class="foodPrice">₦1,500.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/Fried Potatoes with Smoked Polish Sausage.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName">Fried Plantain</p>
+    <p class="foodPrice">₦4,500.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/beans and plantain.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName">Beans & Plantain</p>
+    <p class="foodPrice">₦2,000.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpeg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName" >Shawarma with fried Potatoes</p>
+    <p class="foodPrice">₦3,500.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/wooden-plate-full-burger-fry-potato-with-ketchup-mayonnaise-marble-table_114579-24206.jpeg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName">Full Burger with ketchup </p>
+    <p class="foodPrice">₦1,500.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/thai-rice-with-seafood-pineapple_11554-62.jpeg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName">Pineaple Rice </p>
+    <p class="foodPrice">₦10,500.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/peppered goat.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName" >Peppered Goat </p>
+    <p class="foodPrice">₦3,000.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/spaghetti-meatballs-with-tomato-sauce-white-dish-wooden-rustic-board_43518-170.jpeg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName">Spaghetti Meatballs </p>
+    <p class="foodPrice">₦4,000.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/egusi with soup.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu"  id="foodName">Egusi with Soup & Big Turkey</p>
+    <p class="foodPrice">₦7,000.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/slice-crispy-pizza-with-meat-cheese_140725-6974.jpeg" alt="" width="200px" height="200px";>
+    <p class="foodMenu"  id="foodName" >Crispy Pizza with Meat cheese </p>
+    <p class="foodPrice">₦13,000.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/chips.webp" alt="" width="200px" height="200px";>
+    <p class="foodMenu"  id="foodName">Chicken & Chips with Coleslaw </p>
+    <p class="foodPrice">₦5,700.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/okro and eba.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu"  id="foodName" >Okro & Eba with Fish </p>
+    <p class="foodPrice">₦2,500.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+
+  <div class="gridItem">
+    <img class="food1" src="./food/Ofada.jpg" alt="" width="200px" height="200px";>
+    <p class="foodMenu" id="foodName"> Ofada Rice with ayamase stew </p>
+    <p class="foodPrice">₦5,000.00</p>
+    <button class="addToCart" id="triggerAlert">Add To Cart</button>
+  </div>
+</div>
+ </div>
+  </div>
+</section>
+
+<section class="seeButton">
+    <a href="./sign up page/signup.html"><p>See More</p></a>
+</section>
+
+<!-- SERVICE SECTION.. -->
+ <section class="service">
+  <div class="servicesDiv">
+   <h1 class="serviceTitle">Our Excellence Service</h1>
+   <p class="serviceText">At ChefBite, we pride ourselves on delivering an outstanding dining experience that goes beyond just great food. From the moment you step through our doors, our friendly and attentive team is dedicated to making your visit truly memorable.
+    <br>
+    At ChefBite, your happiness is our priority. Join us to enjoy not just a meal, but an experience you'll want to share and return to time and time again.</p>
+  </div>
+
+ </section>
+
+
+
+ <section class="UserFeedback2">
+  <div class="carousel-container2">
+    <div class="carousel2">
+      <!-- Testimonial 1 -->
+      <div class="testimonial2">
+        <p class="feedback2">"The food here is absolutely amazing! The flavors are unforgettable, and the service was top-notch. Highly recommended!"</p>
+        <div class="stars2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="user2">- Sarah L.</p>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial2">
+        <p class="feedback2">"A wonderful dining experience. The ambiance is cozy, and the staff made sure every detail was perfect. I can't wait to come back!"</p>
+        <div class="stars2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="user2">- James T.</p>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial2">
+        <p class="feedback2">"Delicious dishes and an extensive menu! The staff is so friendly and accommodating. Easily my favorite restaurant in town."</p>
+        <div class="stars2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="user2">- Emily R.</p>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="testimonial2">
+        <p class="feedback2">"An outstanding culinary experience! The chefs truly know how to impress with their creations. Perfect for food lovers."</p>
+        <div class="stars2">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="user2">- Michael B.</p>
+      </div>
+    </div>
+    <div class="indicators2">
+      <span class="indicator active2" data-index="0"></span>
+      <span class="indicator2" data-index="1"></span>
+      <span class="indicator2" data-index="2"></span>
+      <span class="indicator2" data-index="3"></span>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-md-6">
+              <div class="footer-brand">ChefBite</div>
+              <p class="footer-text">Always preparing amazing continental dishes & available for party reservation for our customer
+                  worldwide.</p>
+              <div class="social-links">
+                  <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+          </div>
+
+          <div class="col-md-6 text-md-end">
+              <ul class="footer-links">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Our Menu</a></li>
+                  <li><a href="#">Our Address </a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Reservation</a></li>
+                </ul>
+              </div>
+          </div>
+  
+          <div class="copyright text-center">
+              © 2025 ChefBite. All rights reserved.
+          </div>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fullScreenAlert">
+  <div class="alertTxt"   id="alertText"></div>
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const carousel = document.querySelector('.carousel2');
+    const testimonials = document.querySelectorAll('.testimonial2');
+    const indicators = document.querySelectorAll('.indicator2');
+    let index = 0;
+
+    function updateIndicators() {
+      indicators.forEach((indicator, i) => {
+        indicator.classList.toggle('active', i === index);
+      });
+    }
+
+    function showNextTestimonial() {
+      index = (index + 1) % testimonials.length;
+      const offset = -index * 100; // Shift by 100% for each testimonial
+      carousel.style.transform = `translateX(${offset}%)`;
+      updateIndicators();
+    }
+
+    function jumpToTestimonial(event) {
+      index = parseInt(event.target.getAttribute('data-index'));
+      const offset = -index * 100;
+      carousel.style.transform = `translateX(${offset}%)`;
+      updateIndicators();
+    }
+
+    indicators.forEach(indicator => {
+      indicator.addEventListener('click', jumpToTestimonial);
+    });
+
+    setInterval(showNextTestimonial, 7000); // Auto-play every 3 seconds
+  });
+</script>
+
+<script src="./index.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+   
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
