@@ -4,7 +4,7 @@ import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/11
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD7waZn6WLekr13N3lrriE33LysTarj-O4",
+  apiKey: "api key-O4",
   authDomain: "chefbite-4d7a6.firebaseapp.com",
   projectId: "chefbite-4d7a6",
   storageBucket: "chefbite-4d7a6.appspot.com",
